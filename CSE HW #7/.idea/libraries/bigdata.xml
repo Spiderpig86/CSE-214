@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bigdata">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/bigdata.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

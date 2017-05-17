@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<SplitPane fx:id="splitView" dividerPositions="0.3695652173913043" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GetRoomController">
+  <items>
+      <TabPane fx:id="tabView" prefHeight="398.0" prefWidth="199.0" tabClosingPolicy="UNAVAILABLE" SplitPane.resizableWithParent="false">
+        <tabs>
+          <Tab text="Main Options">
+               <content>
+                  <ScrollPane prefHeight="398.0" prefWidth="177.0">
+                    <content>
+                      <AnchorPane>
+                           <children>
+                              <VBox prefHeight="398.0" prefWidth="287.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-112.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Button fx:id="btnAdd" mnemonicParsing="false" text="Add Building" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnDelete" mnemonicParsing="false" text="Delete Building" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnEdit" mnemonicParsing="false" text="Edit Building" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnFind" mnemonicParsing="false" text="Find Room" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnSearch" mnemonicParsing="false" text="Search" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnListRooms" mnemonicParsing="false" text="List All Rooms" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnListBuildings" mnemonicParsing="false" text="List All Rooms by Buildings" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnQuit" mnemonicParsing="false" text="Quit" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </content>
+            </Tab>
+          <Tab text="Edit Options">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                    <content>
+                      <AnchorPane prefHeight="536.0" prefWidth="142.0">
+                           <children>
+                              <VBox prefHeight="398.0" prefWidth="175.0">
+                                 <children>
+                                    <Button fx:id="btnEditAdd" mnemonicParsing="false" text="Add Room" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnEditDelete" mnemonicParsing="false" text="Delete Room" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnEditEdit" mnemonicParsing="false" text="Edit Room" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnEditMain" mnemonicParsing="false" text="Main Menu" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </content>
+            </Tab>
+            <Tab text="Search Options">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                     <content>
+                        <AnchorPane prefHeight="536.0" prefWidth="142.0">
+                           <children>
+                              <VBox prefHeight="398.0" prefWidth="175.0">
+                                 <children>
+                                    <Button fx:id="btnSearchWhite" mnemonicParsing="false" text="White Board" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnSearchChalk" mnemonicParsing="false" text="Chalk Board" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnSearchAV" mnemonicParsing="false" text="AV Keyword" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnSearchMain" mnemonicParsing="false" text="Main Menu" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+               </content>
+            </Tab>
+            <Tab text="Quit Options">
+               <content>
+                  <ScrollPane prefHeight="200.0" prefWidth="200.0">
+                     <content>
+                        <AnchorPane prefHeight="536.0" prefWidth="142.0">
+                           <children>
+                              <VBox prefHeight="398.0" prefWidth="175.0">
+                                 <children>
+                                    <Button fx:id="btnQuitSave" mnemonicParsing="false" text="Save" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnQuitNoSave" mnemonicParsing="false" text="Don't Save" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                    <Button fx:id="btnQuitMain" mnemonicParsing="false" text="Main Menu" textAlignment="CENTER">
+                                       <padding>
+                                          <Insets bottom="15.0" left="25.0" right="25.0" top="15.0" />
+                                       </padding>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                       </VBox.margin>
+                                    </Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+    <AnchorPane prefHeight="398.0" prefWidth="363.0">
+         <children>
+            <TextArea fx:id="txtConsole" layoutY="115.0" prefHeight="398.0" prefWidth="385.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>

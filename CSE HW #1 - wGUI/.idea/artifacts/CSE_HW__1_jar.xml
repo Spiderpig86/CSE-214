@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CSE HW #1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSE_HW__1_jar</output-path>
+    <root id="archive" name="CSE HW #1.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../CSE HW #1(2) - wGUI/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="CSE HW #1" />
+    </root>
+  </artifact>
+</component>
