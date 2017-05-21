@@ -6,8 +6,8 @@ import java.util.Comparator;
  * name.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 
 // Used for both movie and actor names

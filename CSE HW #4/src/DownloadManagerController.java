@@ -14,8 +14,8 @@ import java.util.TimerTask;
  * variable values to created and set and set up the user interface.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class DownloadManagerController implements Initializable {
 

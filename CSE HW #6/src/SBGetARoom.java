@@ -11,8 +11,8 @@ import java.util.Scanner;
  * in an object file with serialization.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class SBGetARoom {
 

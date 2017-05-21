@@ -6,8 +6,8 @@ package TripProg;
  * linked list of trips contains no more objects.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class EndOfListException extends RuntimeException {
 

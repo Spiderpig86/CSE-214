@@ -13,8 +13,8 @@ import javafx.stage.Stage;
  * integer.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class IntegerDialogGUI {
 

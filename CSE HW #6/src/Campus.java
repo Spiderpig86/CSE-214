@@ -6,8 +6,8 @@ import java.util.HashMap;
  * more buildings can be added, edited, or deleted.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class Campus extends HashMap<String, Building> implements Serializable {
 

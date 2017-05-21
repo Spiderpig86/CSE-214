@@ -6,8 +6,8 @@ package TripProg;
  * trip's location, distance, and activity present.
  *
  * @author Stanley Lim
- *      email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  *
  */
 public class TripStop {

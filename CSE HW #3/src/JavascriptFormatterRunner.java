@@ -14,8 +14,8 @@ import java.util.Scanner;
  * will be output, and then prints out the formatted code.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class JavascriptFormatterRunner {
 

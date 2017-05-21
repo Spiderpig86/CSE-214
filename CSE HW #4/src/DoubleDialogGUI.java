@@ -13,8 +13,8 @@ import javafx.stage.Stage;
  * a <code>DownloadJob</code> both regular and premium.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class DoubleDialogGUI {
 

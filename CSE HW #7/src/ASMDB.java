@@ -6,8 +6,8 @@ import java.util.Scanner;
  * commands to add, remove, edit, and get movie and actor information.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class ASMDB {
 

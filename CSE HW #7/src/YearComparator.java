@@ -7,8 +7,8 @@ import java.util.Comparator;
  * based on the year each movie was made.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class YearComparator implements Comparator<Object> {
 

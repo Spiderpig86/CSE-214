@@ -5,8 +5,8 @@ package TripProg;
  * backward at the head and forward at the tail.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class EndOfItineraryException extends RuntimeException {
 

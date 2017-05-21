@@ -11,8 +11,8 @@ import java.util.HashMap;
  * saved in an object file.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class Building extends HashMap<Integer, Classroom> implements
         Serializable {

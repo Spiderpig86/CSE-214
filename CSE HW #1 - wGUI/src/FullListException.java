@@ -4,8 +4,8 @@
  * the <code>menuStore</code> is filled with items.
  *
  * @author M. D. W.
- *    e-mail: stanley.lim@stsonybrook.edu
- *    Stony Brook ID: 110869393
+ *    e-mail: Some email
+ *    Stony Brook ID: Some ID
  **/
 public class FullListException extends RuntimeException {
 

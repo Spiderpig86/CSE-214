@@ -5,8 +5,8 @@ package TripProg;
  * parameter for a method or constructor is empty.
  *
  * @author Stanley Lim
- *      email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class EmptyParamException extends RuntimeException {
 

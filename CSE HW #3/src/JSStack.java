@@ -7,8 +7,8 @@ import java.util.*;
  * <code>BlockTypes</code>.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class JSStack<E> extends Stack<E> {
 

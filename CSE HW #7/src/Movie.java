@@ -8,8 +8,8 @@ import java.util.List;
  * <code>ArrayList</code> of actors associated with this movie.
  *
  * @author Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  */
 public class Movie {
 

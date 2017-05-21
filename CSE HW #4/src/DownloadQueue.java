@@ -9,8 +9,8 @@ import java.util.*;
  *     The generic data type used in this <code>DownloadQueue</code> class.
  *
  * @author: Stanley Lim
- *      Email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  *
  */
 public class DownloadQueue<E> extends LinkedList<E> {

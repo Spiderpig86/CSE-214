@@ -9,8 +9,8 @@ import java.util.Scanner;
  * will be used to store the travel information of the user.
  *
  * @author Stanley Lim
- *      email: stanley.lim@stonybrook.edu
- *      Stony Brook ID: 110869393
+ *      Email: Some Email
+ *      Stony Brook ID: Some ID
  *
  */
 public class TripPlanner {
